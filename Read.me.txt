@@ -1,0 +1,38 @@
+Introduction:
+This Python program contains machine learning models to predict the fertilizer required for different crop types based on environmental and crop data. It reads data from a CSV file, preprocesses the data, visualizes the data, trains machine learning models, and saves the best model for future use. The CSV file used in this program was coded and designed by Team Sparkwood from VPKBIET Baramati college.
+
+Dependencies:
+
+Python 3.x
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Imbalanced-Learn
+Scikit-Learn
+XGBoost
+Usage:
+
+Set the path to the data file in the DATA_PATH variable.
+Run the program.
+The program will read the data file, preprocess the data, and visualize the data.
+The program will then train several machine learning models using the preprocessed data.
+The program will save the best model to a file named best_model.pkl.
+Code structure:
+
+Import necessary libraries.
+Set the path to the data file in the DATA_PATH variable.
+Read data from the CSV file.
+Visualize the data using bar and histogram plots.
+Preprocess the data by encoding categorical variables and scaling continuous variables.
+Split the data into training and testing sets.
+Train several machine learning models, including K-Nearest Neighbors, Random Forest, Support Vector Machine, and XGBoost.
+Evaluate the performance of each model using accuracy score and classification report.
+Save the best model to a file named best_model.pkl.
+Note:
+The CSV file used in this program was coded and designed by Team Sparkwood from VPKBIET Baramati college.
+
+
+
+
+
